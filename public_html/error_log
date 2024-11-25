@@ -1,0 +1,76 @@
+[17-Aug-2023 16:11:10 UTC] PHP Warning:  Undefined variable $message in /home/sa0adjqx2495/public_html/send.php on line 30
+[17-Aug-2023 16:19:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/sa0adjqx2495/public_html/send.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/sa0adjqx2495/public_html/send.php on line 32
+[17-Aug-2023 16:20:12 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/sa0adjqx2495/public_html/send.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/sa0adjqx2495/public_html/send.php on line 32
+[17-Aug-2023 16:24:08 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/sa0adjqx2495/public_html/send.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/sa0adjqx2495/public_html/send.php on line 32
+[17-Aug-2023 16:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/sa0adjqx2495/public_html/send.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/sa0adjqx2495/public_html/send.php on line 32
+[17-Aug-2023 16:27:12 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/sa0adjqx2495/public_html/send.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/sa0adjqx2495/public_html/send.php on line 32
+[17-Aug-2023 16:27:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/sa0adjqx2495/public_html/send.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/sa0adjqx2495/public_html/send.php on line 32
+[17-Aug-2023 16:28:53 UTC] PHP Parse error:  syntax error, unexpected variable "$e" in /home/sa0adjqx2495/public_html/send.php on line 66
+[17-Aug-2023 16:29:13 UTC] PHP Parse error:  syntax error, unexpected variable "$e" in /home/sa0adjqx2495/public_html/send.php on line 66
+[17-Aug-2023 16:29:31 UTC] PHP Parse error:  syntax error, unexpected variable "$e" in /home/sa0adjqx2495/public_html/send.php on line 66
+[17-Aug-2023 16:37:18 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/sa0adjqx2495/public_html/send.php(58): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php on line 2233
+[17-Aug-2023 16:40:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/sa0adjqx2495/public_html/send.php(56): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php on line 2233
+[17-Aug-2023 16:43:24 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/sa0adjqx2495/public_html/send.php(56): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php on line 2233
+[17-Aug-2023 16:59:54 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/sa0adjqx2495/public_html/send.php(56): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php on line 2233
+[17-Aug-2023 17:07:08 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/sa0adjqx2495/public_html/send.php(56): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php on line 2233
+[17-Aug-2023 17:08:38 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/sa0adjqx2495/public_html/send.php(56): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/sa0adjqx2495/public_html/PHPMailer/src/PHPMailer.php on line 2233
